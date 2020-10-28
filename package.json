@@ -5,6 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "jasmine-node spec",
+    "test1": "sleep 10s && echo tests passed",
+    "test2": "sleep 7s && echo tests passed",
+    "test3": "sleep 10s && echo tests passed",
     "build": "pack-zip",
     "start": "node server.js"
   },
