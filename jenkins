@@ -1,0 +1,5 @@
+sh 'npm install'
+sh 'npm run test1'
+sh 'npm run test2'
+sh 'npm run test3'
+sh 'docker-compose up -d'
